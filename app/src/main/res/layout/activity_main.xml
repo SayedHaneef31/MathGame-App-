@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7D4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:text="Welcome to the Game!!"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/adddddd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="42dp"
+        android:text="Addition"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/subbbbb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="42dp"
+        android:textSize="24sp"
+        android:text="Substraction" />
+
+    <Button
+        android:id="@+id/mulllll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="42dp"
+        android:textSize="24sp"
+        android:text="Multiplication" />
+</LinearLayout>
